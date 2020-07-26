@@ -1,4 +1,4 @@
-# NLP_alphafactor_risk_10K
+# NLP_10K_risk_alpha_factors
 Applying NLP framework to study intrinsic risk associated with 10K filings from S&amp;P500 companies.  
 
 In each 10K annual filing, companies include information about the most significant risks that apply to the company or to its securities. Beginning in 2005, firms were mandated by the SEC to report information such as “Risk Factors” in their 10-K and detailed insection Item 1A.  Risks highlighted from year to year include both business and market-related nature.  Items found in this section could highlight broader market risk as well as its unsystematic risk. 
