@@ -29,27 +29,6 @@ from tqdm import tqdm
 import urllib.request
 import urllib.error
 
-#  #initially set to zero until the build dataset function is run
-# global counter
-# counter = 0
-# i = 0
-#
-# def sleep(timeout, retry=3):
-#     counter = i #retain the counter i in case the sleep function is called
-#     def the_real_decorator(function):
-#         def wrapper(*args, **kwargs):
-#             retries = 0
-#             while retries < retry:
-#                 try:
-#                     value = function(*args, **kwargs)
-#                     if value is None:
-#                         return
-#                 except:
-#                     print(f'Sleeping for {timeout} seconds')
-#                     time.sleep(timeout)
-#                     retries += 1
-#         return wrapper
-#     return the_real_decorator
 
 def scrape_wiki(url):
     scrape_url = requests.get(url).text
@@ -162,15 +141,6 @@ def build_dataset(ticker_dict):
             #print(len(tokens))
             counts = wmdf(cwm, tokens)
             counts = counts.stack().reset_index() #recast the dataframe to allow for the 3 columns listed below
-
-            # risk_sections = [stemmer.stem(risk_section) for risk_section in risk_sections]
-
-            #tokenizing the document
-            #counts = vectorizer.fit_transform(risk_sections)
-            # counts = pd.DataFrame(counts.toarray(),columns=vectorizer.get_feature_names()).transpose()
-            #
-            # counts.columns = [2019,2018,2017,2016,2015]
-            # counts = counts.stack().reset_index()
 
             #Creating a temp dataframe to count frequencies
             counts.columns = ["Word", "Time Period", "Count"]
