@@ -20,6 +20,7 @@ Applying NLP framework to study intrinsic risk associated with 10K filings risk 
 ### Code and Resources Used
 Python Version: 3.7  
 Environment: Google Colab, Atom IDE, Jupyter notebook 
+
 Packages: pandas, numpy, statsmodels, sklearn, matplotlib, keras  
 
 ### Data Cleaning
