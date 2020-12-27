@@ -29,7 +29,7 @@ Packages: pandas, numpy, statsmodels, sklearn, matplotlib, keras
 ### EDA
 Below are a few highlights:
 
-![alt text]()
+![alt text](images/GICS_subindustry.png)
 ![alt text]()
 ![alt text]()
 
