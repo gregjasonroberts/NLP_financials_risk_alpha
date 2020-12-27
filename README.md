@@ -30,7 +30,7 @@ Packages: pandas, numpy, statsmodels, sklearn, matplotlib, keras
 Below are a few highlights:
 
 ![alt text](images/GICS_subindustry.png)
-![alt text](images/sector_barchart (1).png)
+![alt text](images/sector_barchart.png)
 ![alt text](images/sector_return_curve (3).png)
 
 ### Model Building
