@@ -31,7 +31,7 @@ Below are a few highlights:
 
 ![alt text](images/GICS_subindustry.png)
 ![alt text](images/sector_barchart (1).png)
-![alt text]()
+![alt text](images/sector_return_curve (3).png)
 
 ### Model Building
 
